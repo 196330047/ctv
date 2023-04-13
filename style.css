@@ -407,7 +407,7 @@ p {
 }
 
 .testimonials-col {
-    flex-basis: 44%;
+    flex-basis: auto;
     border-radius: 10px;
     margin: 1%;
     text-align: left;
@@ -416,6 +416,19 @@ p {
     cursor: pointer;
     display: flex;
 }
+
+/* .Tread_more{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+    text-decoration: none;
+} */
 
 
 .testimonials-col p {
