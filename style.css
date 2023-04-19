@@ -821,3 +821,114 @@ team_members .member .content .sci a:hover{
 }
 
 /* Contact Us Section end */
+
+/*  alumni section start */
+
+
+.work-with-us {
+  display: grid;
+  grid-template-areas: "form illustration";
+  grid-template-columns: 2fr 1.25fr;
+  max-width: 1050px;
+  background: white;
+  margin: 0 auto;
+}
+
+.Alumni_form {
+  grid-area: form;
+  padding: 50px 50px;
+}
+.Alumni_form h1 {
+  font-size: 60px;
+  margin-bottom: 60px;
+  font-weight: normal;
+  font-family: "Spartan", sans-serif;
+  color: #000;
+}
+.Alumni_form h2 {
+  font-size: 28px;
+  line-height: 40px;
+  font-family: "Roboto Slab", serif;
+  color: #000;
+}
+.Alumni_form form {
+  margin-top: 100px;
+}
+.Alumni_form label, .Alumni_form input, .Alumni_form textarea, .Alumni_form button {
+  display: block;
+  outline: none;
+  font-family: "Spartan", sans-serif;
+  font-size: 18px;
+  color: #000;
+  width: 100%;
+  text-align: left;
+}
+.Alumni_form button{
+    text-align: center;
+}
+.Alumni_form label, .Alumni_form input {
+  border: 0;
+  height: 40px;
+  line-height: 40px;
+}
+.Alumni_form input {
+  border-bottom: 2px solid #000;
+  margin-bottom: 40px;
+}
+.Alumni_form textarea {
+  line-height: 50px;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  resize: none;
+  padding: 5px;
+  
+}
+.Alumni_form input:focus, .form textarea:focus {
+  border-color: #F74005;
+  color: #F74005;
+}
+.Alumni_form button {
+  height: 50px;
+  width: 150px;
+  line-height: 50px;
+  border: 2px solid #000;
+  background: #070606;
+  color: #f3eeee;
+  transition: 0.2s all ease-in-out;
+}
+.Alumni_form button:hover {
+  background: #24f8c7;
+  color: #000;
+  font-weight: bold;
+}
+
+.illustration {
+  padding-top: 100px;
+  grid-area: illustration;
+}
+.illustration h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  transition: 0.2s all ease-in-out;
+  color: #000;
+}
+.illustration h1:hover {
+  text-decoration: underline;
+}
+.illustration h2 {
+  font-family: "Spartan", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #000;
+}
+.illustration img {
+  width: 100%;
+}
+.illustration .link-rollup {
+  padding: 145px 0 50px 20px;
+}
+
+/* aluimni section end */
